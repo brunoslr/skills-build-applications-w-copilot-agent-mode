@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff; /* Light spring blue */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #98fb98; /* Pale green */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #2e8b57; /* Sea green */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #006400; /* Dark green */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #32cd32; /* Lime green */
+}
+
+/* Heading styles */
+h1 {
+  color: #4682b4; /* Steel blue */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Table styles */
+.table {
+  background-color: #ffffff; /* White */
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+  background-color: #98fb98; /* Pale green */
+  color: #006400; /* Dark green */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f0fff0; /* Honeydew */
+}
+
+.table tr:hover {
+  background-color: #e0ffe0; /* Light green */
+}
+
+/* Button styles */
+button {
+  background-color: #32cd32; /* Lime green */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #228b22; /* Forest green */
+}
+
+/* Link styles */
+a {
+  color: #2e8b57; /* Sea green */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #32cd32; /* Lime green */
+  text-decoration: underline;
+}
+
+/* Favicon styles */
+.favicon {
+  height: 16px;
+  width: 16px;
+}
+
+/* Logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
