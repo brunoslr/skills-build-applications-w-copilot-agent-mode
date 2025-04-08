@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#%s_ig@q_l1%3qu66!f5&$tjxuws0-yy9_6nu^daz(b*r9q0b)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']  # Allow all hosts for development
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'legendary-journey-v4pjpqg5p9f45j-8000.app.github.dev']
 
 
 # Application definition
